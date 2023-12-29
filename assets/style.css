@@ -1,0 +1,333 @@
+@font-face {
+  font-family: Fjalla One;
+  src: url(./fonts/FjallaOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: Work Sans;
+  src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Didact Gothic;
+  src: url(./fonts/DidactGothic-Regular.ttf);
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: Work Sans, sans-serif;
+}
+
+header h1 {
+  font-family: Didact Gothic;
+  font-size: 10rem;
+  text-align: center;
+  margin-bottom: 6rem;
+  font-weight: 100;
+  text-transform: uppercase;
+  line-height: 130%;
+  letter-spacing: -2%;
+}
+
+header {
+  height: 230vh;
+}
+
+header p {
+  margin-bottom: 6rem;
+  margin-top: 2rem;
+}
+
+header h2 {
+  font-family: Work Sans, sans-serif;
+  font-size: 16rem;
+  text-align: center;
+  margin-bottom: 15.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+header img {
+  width: 50vw;
+  margin: 0rem 25vw 11.8rem 25vw;
+}
+
+header p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* #  Orbis */
+.Orbis_B {
+  background-image: url(./img/OrbisBG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Rollr_W {
+  background-image: url(./img/RollrBG.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Galitos_B {
+  background-image: url(./img/GalitosBG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.Tretto_W {
+  background-image: url(./img/TrettoSmartphones.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ! Black sections */
+.Black {
+  width: 100vw;
+  height: 90vh;
+  color: #9e9e9e;
+  font-size: 2rem;
+}
+
+.Black h2 {
+  font-size: 11.2rem;
+  text-transform: uppercase;
+  font-family: Didact Gothic;
+  padding-bottom: 5rem;
+  color: white;
+}
+
+.Black div {
+  margin-left: 20vw;
+  padding-top: 20vh;
+  position: relative;
+}
+
+.Black p:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.Black p:nth-of-type(2) {
+  margin-bottom: 8rem;
+}
+
+.button_B {
+  background: none;
+  color: white;
+  border: 1px #fff solid;
+  padding: 1.6rem;
+  width: 10rem;
+  text-decoration: none;
+  font-family: Fjalla One;
+}
+
+.button_B:hover {
+  background-color: black;
+  border-color: black;
+}
+
+.button_B:hover ~ .number_B {
+  color: white;
+  opacity: 1;
+}
+
+.number_B {
+  font-family: Fjalla One;
+  font-size: 16.5rem;
+  opacity: 0.2;
+  margin-left: 60vw;
+}
+
+/* # white sections */
+
+.White {
+  width: 100vw;
+  height: 100vh;
+  color: #9e9e9e;
+  font-size: 2rem;
+}
+
+.White div {
+  margin-left: 20vw;
+  padding-top: 20vh;
+}
+
+.White h2 {
+  text-transform: uppercase;
+  font-size: 11.2rem;
+  font-family: Didact Gothic;
+  padding-bottom: 5rem;
+  color: black;
+}
+
+.White p:first-of-type {
+  margin-bottom: 2rem;
+}
+
+.White p:first-of-type::before {
+  content: "— ";
+}
+
+.White p:nth-of-type(2) {
+  margin-bottom: 8rem;
+}
+
+.White div {
+  margin-left: 20vw;
+  padding-top: 20vh;
+}
+
+.button_W {
+  background: none;
+  color: black;
+  border: 1px black solid;
+  padding: 1.6rem;
+  width: 10rem;
+  text-decoration: none;
+  font-family: Fjalla One;
+}
+
+.button_W:hover {
+  background-color: black;
+  color: white;
+}
+
+.button_W:hover ~ .number_W {
+  color: black;
+  opacity: 1;
+}
+
+.number_W {
+  font-family: Fjalla One;
+  font-size: 16.5rem;
+  opacity: 0.2;
+  margin-left: 60vw;
+}
+
+/* # MORE section */
+
+.more_B article {
+  height: 100vh;
+  background-color: black;
+}
+
+.more_B h2 {
+  font-family: Work Sans;
+  font-weight: 300;
+  color: white;
+  font-size: 18rem;
+  text-align: center;
+  letter-spacing: -10%;
+  padding-top: 13rem;
+  margin-bottom: 15rem;
+}
+
+.more_B p {
+  font-size: 2.2rem;
+  line-height: 180%;
+  letter-spacing: 1%;
+  color: #666666;
+  margin-left: 40vw;
+  margin-right: 10vw;
+}
+
+.more_B a {
+  color: white;
+  text-decoration: none;
+  font-size: 6rem;
+  text-align: left;
+  margin-left: 40vw;
+  margin-right: 10vw;
+}
+
+footer {
+  text-align: center;
+  color: black;
+  background-color: white;
+  height: 100vh;
+  padding-top: 23rem;
+}
+
+footer ul li {
+  list-style-type: none;
+  padding-bottom: 15rem;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 16rem;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  animation: heartbeat 1s infinite;
+  margin: 0 auto;
+}
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #000000;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(0.75);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: scale(0.75);
+  }
+  60% {
+    transform: scale(1);
+  }
+  80% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(0.75);
+  }
+}
